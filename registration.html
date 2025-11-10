@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <label for="Name">NAME:</label>
+        <input type="text" id="name" name="username" placeholder="Enter Your Name">
+        <label for="password">password:</label>
+        <input type="password" id="pass" name="password">
+        <label for="email">E-Mail</label> 
+        <input type="email" id="email" name="E-Mail">
+        <p>Gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Female">Female</label>
+        <p>Skills</p>
+            <input type="checkbox" id="HTML" name="skill" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="CSS" name="skill" value="CSS">
+            <label for="css">CSS</label>
+            <br>
+            <br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="Age" min="1" max="100">
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+            <br>
+            <br>
+            <label for="msg">Message:</label><br>
+            <textarea id="msg" name="Message" row="4" cols="30" placeholder="Write Something..."></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+    </body>
+</html>
